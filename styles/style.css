@@ -12,8 +12,8 @@ section#login{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 900px;
-    height: 400px;
+    width: 1000px;
+    height: 435px;
     padding: 20px;
     border: 2px solid black;
     border-radius: 40px;
@@ -22,10 +22,19 @@ section#login{
 }
 
 div#esquerda-login{
-    background-color: rgba(255, 255, 255, 0.195);
+    background-color: rgba(186, 244, 172, 0.343);
+    width: 50%;
+    margin: -10px -10px -10px -10px;
+    color: #03FCC9;
+    font-size: 1.5em;
+}
+
+div#esquerda-login > h1 {
+    padding-left: 5px ;
 }
 
 div#direita-login{
-    background-color: rgba(255, 255, 255, 0.195);
+    background-color: rgba(251, 137, 137, 0.195);
+    width: 38%;
 }
 
