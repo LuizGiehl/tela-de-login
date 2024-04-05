@@ -1,7 +1,9 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
+
 
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Signika Negative", sans-serif;
 }
 
 section#login{
@@ -22,19 +24,56 @@ section#login{
 }
 
 div#esquerda-login{
-    background-color: rgba(186, 244, 172, 0.343);
     width: 50%;
     margin: -10px -10px -10px -10px;
     color: #03FCC9;
     font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 div#esquerda-login > h1 {
-    padding-left: 5px ;
+    padding-right: 80px;
+    align-items: top;
+    font-weight: 600;
+}
+
+div#esquerda-login > img.imagem-login{
+    width: 83%;
+    margin: -50px 0px 0px 0px;
 }
 
 div#direita-login{
-    background-color: rgba(251, 137, 137, 0.195);
-    width: 38%;
+    margin: auto;
+    background-color: #2D1B3E;
+    width: 36%;
+    height: 90%;
+    border-radius: 18px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+div#direita-login > h2{
+    text-align: center;
+    font-size: 1.9em;
+    color: #03FF76;
+}
+
+div#direita-login > form{
+    display: flex;
+    flex-direction: column;
+}
+
+.campos{
+    display: flex;
+    flex-direction: column;
+}
+
+div#direita-login > form > div > label{
+    font-size: 1.3em;
+    padding-left: 20px;
+    margin-bottom: 5px;
+    color: #9c9191;
 }
 
