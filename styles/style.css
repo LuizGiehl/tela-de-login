@@ -63,6 +63,10 @@ div#direita-login > h2{
 div#direita-login > form{
     display: flex;
     flex-direction: column;
+    background-color: #ada1a129;
+    height: 70%;
+    width: 90%;
+    margin: auto;
 }
 
 .campos{
@@ -72,8 +76,29 @@ div#direita-login > form{
 
 div#direita-login > form > div > label{
     font-size: 1.3em;
-    padding-left: 20px;
     margin-bottom: 5px;
-    color: #9c9191;
+    color: #9d9d9d;
 }
 
+.campo-dig{
+    width: 75%;
+    height: 50px;
+    background-color: #59446F;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.277);
+    color: #c2c2c2;
+}
+
+.campo-dig::placeholder{
+    padding-left: 5px;
+    color: #7878788f;
+}
+
+.campo-dig:hover{
+    transition: #413152 0.5s linear 0s;
+    border: 2px solid black;
+}
