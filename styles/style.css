@@ -1,14 +1,25 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
 *{
     font-family: "Signika Negative", sans-serif;
 }
 
+body{
+    height: 100vh;
+    background-image: url(images/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    overflow-y: hidden;
+}
+
 section#login{
     color: white;
-    background-color: #180C24;
+    background-color: #180c24de;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.348);
     position: absolute;
     left: 50%;
@@ -17,7 +28,6 @@ section#login{
     width: 1000px;
     height: 435px;
     padding: 20px;
-    border: 2px solid black;
     border-radius: 40px;
     display: flex;
     justify-content: space-around;
@@ -26,7 +36,7 @@ section#login{
 div#esquerda-login{
     width: 50%;
     margin: -10px -10px -10px -10px;
-    color: #03FCC9;
+    color: #896095;
     font-size: 1.5em;
     display: flex;
     flex-direction: column;
@@ -57,13 +67,12 @@ div#direita-login{
 div#direita-login > h2{
     text-align: center;
     font-size: 1.9em;
-    color: #03FF76;
+    color: #c97965;
 }
 
 div#direita-login > form{
     display: flex;
     flex-direction: column;
-    background-color: #ada1a129;
     height: 70%;
     width: 90%;
     margin: auto;
@@ -81,7 +90,7 @@ div#direita-login > form > div > label{
 }
 
 .campo-dig{
-    width: 75%;
+    width: 100%;
     height: 50px;
     background-color: #59446F;
     border: none;
@@ -91,6 +100,7 @@ div#direita-login > form > div > label{
     font-size: 18px;
     box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.277);
     color: #c2c2c2;
+    box-sizing: border-box;
 }
 
 .campo-dig::placeholder{
@@ -100,5 +110,28 @@ div#direita-login > form > div > label{
 
 .campo-dig:hover{
     transition: #413152 0.5s linear 0s;
-    border: 2px solid black;
+    border: 2px solid rgba(0, 0, 0, 0.654);
+    transform: translate(-1px, -1px);
+    
+}
+
+#botaologin{
+    border: none;
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #c97965;
+    font-size: 1.3em;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    color: #180C24;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.277);
+}
+
+#botaologin:hover{
+    border: 2px solid rgba(0, 0, 0, 0.654);
+    cursor: pointer;
+    transform: translate(0px, -1px);
 }
