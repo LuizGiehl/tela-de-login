@@ -9,7 +9,7 @@
 
 body{
     height: 100vh;
-    background-color: #5500b0;
+    background-image: linear-gradient(to top, #030305,#F48C69, #A44C89, #5D2971, #1C0F29 );
     background-image: url(images/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
