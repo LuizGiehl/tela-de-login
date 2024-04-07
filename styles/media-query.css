@@ -37,6 +37,7 @@
     div#esquerda-login > h1{
         text-align: center;
         padding-right: 0px;
+        text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.519);
     }
 
     div#esquerda-login > img.imagem-login{
