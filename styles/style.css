@@ -20,7 +20,7 @@ body{
 
 section#login{
     color: white;
-    background-color: #180c24de;
+    background-color: rgba(24, 12, 36, 0.871);
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.348);
     position: absolute;
     left: 50%;
