@@ -71,7 +71,7 @@ div#direita-login > h2{
     color: #c97965;
 }
 
-div#direita-login > form{
+div#direita-login > section{
     display: flex;
     flex-direction: column;
     height: 70%;
@@ -84,7 +84,7 @@ div#direita-login > form{
     flex-direction: column;
 }
 
-div#direita-login > form > div > label{
+div#direita-login > section > div > label{
     font-size: 1.3em;
     margin-bottom: 5px;
     color: #9d9d9d;
@@ -135,4 +135,9 @@ div#direita-login > form > div > label{
     border: 2px solid rgba(0, 0, 0, 0.654);
     cursor: pointer;
     transform: translate(0px, -1px);
+    background-color: #aa6756;
+}
+
+#botaologin:active{
+    background-color: #c97965;
 }
