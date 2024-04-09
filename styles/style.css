@@ -141,3 +141,42 @@ div#direita-login > section > div > label{
 #botaologin:active{
     background-color: #c97965;
 }
+
+#espaço{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#bem-vindo{
+    color: #896095;
+    font-size: 2.5em;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#voltar{
+    border: none;
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    height: 20%;
+    border-radius: 15px;
+    background-color: #c97965;
+    font-size: 1.3em;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    color: #180C24;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.277);
+}
+
+#voltar:hover{
+    border: 2px solid rgba(0, 0, 0, 0.654);
+    cursor: pointer;
+    transform: translate(0px, -1px);
+    background-color: #aa6756;
+}
+
+#voltar:active{
+    background-color: #c97965;
+}
